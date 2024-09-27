@@ -1,7 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
-
-.pag-inicial {
-    background-color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+.pagina-inicial
+{
+text-align: center;
 }
+
+.tela-esquerda {
+    text-align: right;
+    height: 700px;
+}
+
+.tela-login {
+    display: flex;
+}
+
+.botoes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botoes a:hover {
+    background-color: purple;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+body#index {
+    background-image: linear-gradient(135deg, red, yellow);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.tela-esquerda img {
+    height: 100vh;
+}
+
+body {
+    margin: 0px;
+}
+
+.tela-direita {
+    margin: 150px;
+}
+
+ 
+
