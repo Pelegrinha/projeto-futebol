@@ -55,11 +55,27 @@ body {
 }
 
 .times img {
-    height: 200px;
+    height: 150px;
+    text-align: center;
 }
 
 .liverpool img {
     height: 200px;
+    text-align: center;
+}
+
+.times div {
+    display: flex;
+    align-items: center;
+}
+
+.united {
+    height: 300px;
+}
+
+body {
+    background-image: linear-gradient(purple, pink);
+    background-attachment: fixed;
 }
 
  
